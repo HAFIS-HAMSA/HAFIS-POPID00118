@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+
+
+
+}
+
+.content{
+   background-color: red;
+   height: 90vh;
+   width: 90vh;
+   text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(25, 123, 25);
+    
+   
+
+}
+
+.content h1{
+    padding: 10px;
+    font-size: 45px;
+    color: aliceb;
+    
+}
+.imgs{
+    
+    height: 200px;
+
+}
+.content p, .content h1{
+    color: white;
+}
+
+
+.imgs img{
+    width: 100px;
+    height: 100px;
+    border-radius: 360dvh;
+    object-fit: inherit;
+    
+    
+    
+}
+.first{
+top: 10px;
+position: relative;
+
+}
+.second{
+position: relative;
+top: 80px;
+transition: 1s;
+
+
+}
+.second:hover{
+
+    transform: scale(-.5);
+
+}
+.third{
+    top: 5px;
+    position: relative;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.signup{
+background-color:white;
+width: 90vh;
+height: 88vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-transform: capitalize;
+ border-radius: 10px;
+ border-top-left-radius: 0;
+ border-bottom-left-radius: 0;
+ border: 5px solid;
+ border-color: rgb(25, 123, 25);
+ padding: 2.5px;
+ border-left-width: 0px;
+ 
+ 
+
+
+}
+p{
+ text-align: center;   
+    
+}
+
+
+h1{
+    text-align: center;
+}
+input{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid green;
+    width: 100%;
+    margin: 20px;
+    margin-left: 0;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+h5{
+
+    text-align: center;
+    position:relative;
+    
+
+}
+.btn{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+    label{
+        margin-left: 10%;
+    }
+.btn button{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(25, 123, 25);
+    color: aliceblue;
+    margin: auto;
+    
+
+}
+
+input:focus{
+    
+    outline: none;
+    text-align: justify;
+}
